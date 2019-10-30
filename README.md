@@ -43,6 +43,10 @@ rrao 2019
 
 If you run the avpvs script, please be carefully with the arguments videosegment and src.
 
+## Structure
+TBD
+
+
 ## Licence
 GNU General Public License v3. See LICENSE file in this repository.
 
