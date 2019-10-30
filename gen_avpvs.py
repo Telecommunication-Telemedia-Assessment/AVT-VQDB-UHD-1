@@ -69,8 +69,8 @@ def main(_):
     parser = argparse.ArgumentParser(description='convert video segment to avpvs',
                                      formatter_class=argparse.ArgumentDefaultsHelpFormatter,
                                      epilog="rrao 2019")
-    parser.add_argument("--videosegment", type=str, help="video segment")
-    parser.add_argument("--src", type=str, help="source video")
+    parser.add_argument("videosegment", type=str, help="video segment")
+    parser.add_argument("src", type=str, help="source video")
     parser.add_argument("--avpvs_folder", type=str, default="./avpvs", help="folder for storing the avpvs file")
 
     args = vars(parser.parse_args())
