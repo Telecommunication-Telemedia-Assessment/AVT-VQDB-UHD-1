@@ -2,12 +2,12 @@
 import argparse
 import os
 import sys
-
 import urllib.request
 
 
 base_url = 'https://avtshare01.rz.tu-ilmenau.de/avt-vqdb-uhd-1/'
 
+# TODO: maybe push to JSON?
 SRC_VIDEOS = [
     base_url + "",
     base_url + "",
