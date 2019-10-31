@@ -14,12 +14,12 @@ If you use any of the data please cite the following paper
     month={Dec}
 }
 ```
-## Download of Source videos and segments
+## Download of source videos and segments
 TBD
 
-## AVPVS Generation
+## AVPVS generation
 To run, e.g., full reference models, it is required to perform a conversion to match the same resolution and framerate of the distorted video to the corresponding source video.
-For this you can use the scripte `gen_avpvs.py`.
+For this you can use the script `gen_avpvs.py`.
 As a requirement you need Python >=3.6 installed.
 
 For the usage, run `./gen_avpvs.py --help`:
@@ -41,12 +41,12 @@ optional arguments:
 rrao 2019
 ```
 
-If you run the avpvs script, please be carefully with the arguments videosegment and src.
+If you run the avpvs script, please be careful with the arguments videosegment and src.
 
 ## Structure
 TBD
 
 
-## Licence
+## License
 GNU General Public License v3. See LICENSE file in this repository.
 
