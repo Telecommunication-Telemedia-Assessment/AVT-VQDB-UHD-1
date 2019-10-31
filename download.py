@@ -23,7 +23,7 @@ VIDEO_SEGMENTS = [
 
 def _get_file(url, target_filename_and_path):
     """
-    downloads a file stored as a given `url` to `target_filename_and_path`
+    downloads a file from `url` to `target_filename_and_path`
     """
     try:
         urllib.request.urlretrieve(url, target_filename_and_path)
