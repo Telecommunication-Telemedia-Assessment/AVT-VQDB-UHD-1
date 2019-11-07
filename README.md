@@ -18,7 +18,6 @@ If you use any of the data please cite the following paper
 To download all video segments and source videos (in total around 55GB) use the provided download tool, e.g. a `./download.py --help` call will show you the following help:
 
 ```
-
 usage: download.py [-h] [--no_sources]
 
 download video segments and source videos
