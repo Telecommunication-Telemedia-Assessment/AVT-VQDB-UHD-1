@@ -1,7 +1,7 @@
 # AVT-VQDB-UHD-1
 This is a repository with data related to the 4K databases that are published at IEEE-ISM 2019.
 
-If you use any of the data please cite the following paper
+If you use any of the data or code please cite the following paper
 
 ```
 @inproceedings{rao2019Db,
