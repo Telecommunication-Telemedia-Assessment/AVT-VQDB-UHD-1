@@ -75,7 +75,7 @@ test_X/vmaf_reports --> all per frame vmaf and other full ref scores
 ```
 
 
-## License for the Code
+## License for the code
 GNU General Public License v3. See LICENSE file in this repository.
 
 ## Licence for the shared videos
