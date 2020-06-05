@@ -11,7 +11,7 @@ import csv
 import os.path
 import glob
 
-SITES = ['source', 'test_1', 'test_2', 'test_3', 'test_4', 'videos']
+SITES = ['sources', 'test_1', 'test_2', 'test_3', 'test_4', 'videos']
 
 
 class Website(object):
@@ -806,6 +806,11 @@ def main():
     f = open(SITES[0] + '.html', 'w+')
     f.write(source_obj.create_source())
     f.close()
+
+    f = open('index.html', 'w+')
+    f.write(source_obj.create_source())
+    f.close()
+
     f = open(SITES[1] + '.html', 'w+')
     f.write(source_obj.create_test_site(1))
     f.close()
