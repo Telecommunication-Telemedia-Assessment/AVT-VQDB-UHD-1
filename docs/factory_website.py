@@ -147,6 +147,9 @@ class Modal(Website):
                                     <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" style="height:1.5em" />
                                     Github</a>
                                 </li>
+                                <li>
+                                <a href="http://tu-ilmenau.de/impressum">Imprint</a>
+                                </li>
 
                             </ul>
                         </div>
@@ -801,31 +804,24 @@ class SourceFactory:
         html += '''</html>'''
         return html
 
+
+def write_page(filename, content):
+    with open(filename, "w+") as xfp:
+        xfp.write(content)
+
+
 def main():
     source_obj = SourceFactory()
-    f = open(SITES[0] + '.html', 'w+')
-    f.write(source_obj.create_source())
-    f.close()
+    write_page(SITES[0] + '.html', source_obj.create_source())
 
-    f = open('index.html', 'w+')
-    f.write(source_obj.create_source())
-    f.close()
+    write_page('index.html', source_obj.create_source())
 
-    f = open(SITES[1] + '.html', 'w+')
-    f.write(source_obj.create_test_site(1))
-    f.close()
-    f = open(SITES[2] + '.html', 'w+')
-    f.write(source_obj.create_test_site(2))
-    f.close()
-    f = open(SITES[3] + '.html', 'w+')
-    f.write(source_obj.create_test_site(3))
-    f.close()
-    f = open(SITES[4] + '.html', 'w+')
-    f.write(source_obj.create_test_site(4))
-    f.close()
-    f = open(SITES[5] + '.html', 'w+')
-    f.write(source_obj.create_list_site())
-    f.close()
+    write_page(SITES[1] + '.html', source_obj.create_test_site(1))
+    write_page(SITES[2] + '.html', source_obj.create_test_site(2))
+    write_page(SITES[3] + '.html', source_obj.create_test_site(3))
+    write_page(SITES[4] + '.html', source_obj.create_test_site(4))
+
+    write_page(SITES[5] + '.html', source_obj.create_list_site())
 
     # ="w3-tag w3-black w3-margin-bottom btn-small">Show all</span>
 
