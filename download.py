@@ -19,7 +19,7 @@ VIDEO_SEGMENTS = {
     "test_1": read_local_json("test_1.json"),
     "test_2": read_local_json("test_2.json"),
     "test_3": read_local_json("test_3.json"),
-    "test_4": read_local_json("test_3.json"),
+    "test_4": read_local_json("test_4.json"),
 }
 
 
