@@ -34,14 +34,16 @@ def _get_file(url, target_filename_and_path):
     return True
 
 
-def download_files(files):
+def download_files(files, output=None):
     """
-    downloads a list of `files`
+    downloads a list of `files` to the "output" directory
     """
     for file in files:
-        print(f"""download {file}""")
-        os.makedirs(os.path.dirname(file), exist_ok=True)
-        _get_file(base_url + file, file.replace(base_url, "./"))
+        dirname = "." if output is None else output
+        print(f"""download {file} to {dirname}""")
+        target = os.path.abspath(os.path.join(dirname, file.replace(base_url, "./")))
+        os.makedirs(os.path.dirname(target), exist_ok=True)
+        _get_file(base_url + file, target)
     return True
 
 
@@ -51,13 +53,14 @@ def main(_):
                                      epilog="stg7 2019",
                                      formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument("--no_sources", action="store_true", help="download no sources")
+    parser.add_argument("--output", type=str, help="specify a different output directory (default: working directory)")
 
     a = vars(parser.parse_args())
     for test in VIDEO_SEGMENTS:
-        download_files(VIDEO_SEGMENTS[test])
+        download_files(VIDEO_SEGMENTS[test], output=a["output"])
 
     if not a["no_sources"]:
-        download_files(SRC_VIDEOS)
+        download_files(SRC_VIDEOS, output=a["output"])
 
 
 if __name__ == "__main__":
