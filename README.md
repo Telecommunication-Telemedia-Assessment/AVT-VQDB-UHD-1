@@ -18,13 +18,15 @@ If you use any of the data or code please cite the following paper
 To download all video segments and source videos (in total around 55GB) use the provided download tool, e.g. a `./download.py --help` call will show you the following help:
 
 ```
-usage: download.py [-h] [--no_sources]
+usage: download.py [-h] [--no_sources] [--output OUTPUT]
 
 download video segments and source videos
 
 optional arguments:
-  -h, --help    show this help message and exit
-  --no_sources  download no sources (default: False)
+  -h, --help       show this help message and exit
+  --no_sources     download no sources (default: False)
+  --output OUTPUT  specify a different output directory (default: working directory)
+
 
 stg7 2019
 ```
