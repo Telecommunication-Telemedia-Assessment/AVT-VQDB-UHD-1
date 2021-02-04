@@ -72,6 +72,9 @@ test_X/segments --> all encoded videos used in the test
 test_X/brisque_reports --> extracted features for brisque model
 test_X/niqe_reports --> extracted features for niqe model
 test_X/vmaf_reports --> all per frame vmaf and other full ref scores
+
+# siti
+siti/*.csv --> SI/TI scores for each SRC video, according to ITU-T Rec. P.910
 ```
 
 
