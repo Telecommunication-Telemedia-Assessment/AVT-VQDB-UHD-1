@@ -63,7 +63,7 @@ If you run the avpvs script, please be careful with the arguments videosegment a
 We shortly describe the folder structure used in this repository and after downloading of all additional files.
 
 ```
-src_videos --> source vidoes for all tests
+src_videos --> source videos for all tests
 
 # for each test
 test_X/mos_ci.csv --> subjective ratings with CI values
