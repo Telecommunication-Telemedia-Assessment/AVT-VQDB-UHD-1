@@ -31,7 +31,7 @@ optional arguments:
 stg7 2019
 ```
 
-You can also use your favourite download tool, check the base_url defined in `download.py`.
+You can also use your favorite download tool, check the [base_url](https://avtshare01.rz.tu-ilmenau.de/avt-vqdb-uhd-1/) defined in `download.py`.
 
 ## AVPVS generation
 To run, e.g., full reference models, it is required to perform a conversion to match the same resolution and framerate of the distorted video to the corresponding source video.
