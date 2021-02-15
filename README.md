@@ -1,7 +1,8 @@
 # [AVT-VQDB-UHD-1](https://telecommunication-telemedia-assessment.github.io/AVT-VQDB-UHD-1/)
 This is a repository with data related to the 4K databases that are published at IEEE-ISM 2019.
 You can explore the dataset using the [overviewpage](https://telecommunication-telemedia-assessment.github.io/AVT-VQDB-UHD-1/).
-However, for download it is recommended to use the provided tool.
+However, for download it is recommended to use the provided tool, because the videos are not hosted in this repository.
+
 
 If you use any of the data or code please cite the following paper
 
