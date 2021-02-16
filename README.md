@@ -41,7 +41,7 @@ The described tests were coducted using AVPVS.
 AVPVS are rescaled (to 3840 x 2160 @ 60fps matching the native resolution and framerate of the used display) and uncompressed versions of the encoded video segments, this ensures that there are no player specific influences while playing out the videos.
 For the purpose of reducing storage, we only include the encoded videos in this Database, however the AVPVS version can be generated using the provided tool.
 
-To run, e.g., full reference models, it is also required to perform a conversion to match the same resolution and framerate of the distorted video to the corresponding source video.
+To run, e.g., full reference models, it is also required to perform such conversion to match the same resolution and framerate of the distorted video to the corresponding source video.
 For this you can use the script `gen_avpvs.py`.
 As a requirement you need Python >=3.6 installed.
 
