@@ -86,6 +86,14 @@ test_X/vmaf_reports --> all per frame vmaf and other full ref scores
 siti/*.csv --> SI/TI scores for each SRC video, according to ITU-T Rec. P.910
 ```
 
+## Papers using the Dataset
+This dataset is used in the following papers:
+* Steve Göring, Rakesh Rao Ramachandra Rao, Bernhard Feiten, and Alexander Raake. **"Modular Framework and Instances of Pixel-based Video Quality Models for UHD-1/4K."** _IEEE Access. vol. 9. 2021_ [[url]](url)
+* Alexander Raake, Silvio Borer, Shahid Satti, Jörgen Gustafsson, Rakesh Rao Ramachandra Rao, Stefano Medagli, Peter List, Steve Göring, David Lindero, Werner Robitza, Gunnar Heikkilä, Simon Broom, Christian Schmidmer, Bernhard Feiten, Ulf Wüstenhagen, Thomas Wittmann, Matthias Obermann, and Roland Bitto. **"Multi-model standard for bitstream-, pixel-based and hybrid video quality assessment of UHD/4K: ITU-T P.1204."** _IEEE Access. vol. 8. 2020_ [[url]](https://ieeexplore.ieee.org/document/9234526?source=authoralert")
+* Rakesh Rao Ramachandra Rao, Steve Göring, Werner Robitza, Alexander Raake, Bernhard Feiten, Peter List, and Ulf Wüstenhagen. **"Bitstream-based Model Standard for 4K/UHD: ITU-T P.1204.3 -- Model Details, Evaluation, Analysis and Open Source Implementation."** _Twelfth International Conference on Quality of Multimedia Experience (QoMEX)_. Athlone, Ireland. May 2020. [[url]](https://www.researchgate.net/publication/341792225_Bitstream-based_Model_Standard_for_4KUHD_ITU-T_P12043_-_Model_Details_Evaluation_Analysis_and_Open_Source_Implementation")
+* Steve Göring, Christopher Krämmer, and Alexander Raake. **"cencro -- Speedup of Video Quality Calculation using Center Cropping."** _21st IEEE International Symposium on Multimedia (2019 IEEE ISM)_. Dec 2019. [[url]](https://www.researchgate.net/publication/338200687_cencro_--_Speedup_of_Video_Quality_Calculation_using_Center_Cropping)
+
+
 
 ## License for the code
 GNU General Public License v3. See LICENSE file in this repository.
