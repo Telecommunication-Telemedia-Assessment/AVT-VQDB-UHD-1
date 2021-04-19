@@ -74,6 +74,7 @@ src_videos --> source videos for all tests
 
 # for each test
 test_X/mos_ci.csv --> subjective ratings with CI values
+test_X/crowd/mos_ci.csv --> subjective ratings with CI values for the crowd test (only available for test_1)
 test_X/metadata.csv --> video meta-data for all video segments
 test_X/objective_scores.csv --> calculated objective video quality scores
 test_X/segments --> all encoded videos used in the test
