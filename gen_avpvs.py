@@ -74,6 +74,7 @@ def main(_):
     parser.add_argument("--avpvs_folder", type=str, default="./avpvs", help="folder for storing the avpvs file")
 
     args = vars(parser.parse_args())
+    os.makedirs(args["avpvs_folder"], exist_ok=True)
     avpvs_gen(args["videosegment"], args["src"], args["avpvs_folder"])
 
     return 0
