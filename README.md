@@ -8,6 +8,7 @@ However, for download it is recommended to use the provided tool, because the vi
 
 **News:**
 
+- 12.01.2026: A bug has been identified affecting the sequences `water_netflix_8s`. This affects calculation of full-reference metrics on the sequences. Please refer to [this issue](https://github.com/Telecommunication-Telemedia-Assessment/AVT-VQDB-UHD-1/issues/11#issuecomment-3737347598) for a script to fix the sequences.
 - 01.03.2022: The database was updated with a new dataset related to codec retraining, see the folder `codec_retraining`.
 
 **Contents:**
